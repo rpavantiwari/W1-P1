@@ -1,0 +1,35 @@
+
+*{
+    background-color: rgb(60, 63, 85);
+    color: rgb(211, 211, 236);
+    font-style:san-sarif;
+    align-items: center;
+    text-align: center;
+
+
+}
+#js{
+    background-color: burlywood;
+    color:aliceblue;
+    margin-bottom: 90px;
+}
+#btn1{
+    background-color: burlywood;
+    color:aliceblue;
+   font-size: 20px;
+   border-radius:10px;
+}
+#btn2{
+    background-color: burlywood;
+    color:aliceblue;
+    font-size: 20px;
+   border-radius:10px;
+   
+}
+#btn3{
+    background-color: burlywood;
+    color:aliceblue;
+    font-size: 20px;
+   border-radius:10px;
+   
+}
