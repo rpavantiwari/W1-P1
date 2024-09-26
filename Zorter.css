@@ -1,94 +1,197 @@
 *{
-    background-color: rgb(60, 63, 85);
-    color: rgb(211, 211, 236);
+    background-color: rgb(60, 63, 85); 
+    color: rgb(211, 211, 236); 
     font-style:san-sarif;
     align-items: center;
     text-align: center;
     color: white;
+    
 }
 .header{
     height: 60px;
     width: 100%;
-    background-color:  rgb(211, 211, 236);
-    display: flex;
-    align-items: flex-start;
+    background-color:  rgb(61, 61, 82); 
+    display: flex; 
+    align-items: flex-start; 
+    visibility: 15%;
+   
 
 }
 .navlogo{
     height: 40px;
     width: 100px;
-    background-color:  rgb(211, 211, 236);
+    background-color: transparent;
     margin-top: 7px;
     font-size: 1.2rem;
     border-radius: 5%;
-    
-    
-    
-    
+    margin-bottom: 7px;
 }
 
-
-.h2{
+.hrbr{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+.h{
     height: 40px;
     width: 100px;
-    background-color:  rgb(211, 211, 236);
+    background-color:  transparent;
     margin-top: 7px;
     font-size: 1.2rem;
     border-radius: 5%;
-    margin-left: 20px;
+    margin-left: 20px; 
+}
+.h1{
+    
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 7px;
+    font-size: 1.2rem;
+    border-radius: 5%;
+   
+}
+
+/* .sb{
+    height: 35px;
+    
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+   
     
 }
-.h3{
+.btn{
+    border-radius: 20%;
     height: 40px;
-    width: 100px;
-    background-color:  rgb(211, 211, 236);
-    margin-top: 7px;
-    font-size: 1.2rem;
-    border-radius: 5%;
-    margin-left: 20px;
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 0.5rem;
+    font-size: 1rem; 
+
+ } */ 
+ .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.h4{
-    height: 40px;
-    width: 100px;
-    background-color:  rgb(211, 211, 236);
-    margin-top: 7px;
-    font-size: 1.2rem;
-    border-radius: 5%;
-    margin-left: 20px;
+
+.sb {
+    /* padding: 10px 15px; */
+    font-size: 1rem;
+    font-weight: 100;
+    border: 2px solid #f9fbfc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 400px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding-top: 10px;
+
 }
-.h6{
-    height: 40px;
-    width: 100px;
-    background-color:  rgb(211, 211, 236);
-    margin-top: 7px;
-    font-size: 1.2rem;
-    border-radius: 5%;
-    margin-left: 20px;
+
+.sb::placeholder {
+    color: #888;
+    font-style: Gowun Batang;
 }
-.h5{
-    height: 40px;
-    width: 100px;
-    background-color:  rgb(211, 211, 236);
-    margin-top: 7px;
-    font-size: 1.2rem;
-    border-radius: 5%;
-    margin-left: 20px;
+
+.sb:focus {
+    border-color: #0056b3;
 }
-.h7{
-    height: 40px;
-    width: 100px;
-    background-color:  rgb(211, 211, 236);
-    margin-top: 7px;
+.menu{
     font-size: 1.2rem;
-    border-radius: 5%;
-    margin-left: 30%;
+    margin-top: 7px;
 }
-.h8{
+.menu:hover{
+    font-size: 1.5rem;
+}
+.btn {
+    padding: 10px 15px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.btn:hover {
+    background-color: #2a3e53;
+    font-size: 1.2rem;
+}
+.h:hover{
+  
+    font-size: 1.1rem;
+    /* background-color:rgb(31, 32, 41)  */
+    
+    
+}
+.h1:hover{
+  
+    font-size: 1.1rem;
+    /* background-color:rgb(31, 32, 41)  */
+    
+    
+}
+.btn i {
+    font-size: 18px;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color:  rgb(61, 61, 82); 
+    display: flex;
+    align-items: flex-start;
+    visibility: 15%;
+    /* margin-top: 800px;  */
+    font-size: 0.9rem;
+}
+.hx{
     height: 40px;
     width: 100px;
-    background-color:  rgb(211, 211, 236);
+    background-color: transparent;
     margin-top: 7px;
-    font-size: 1.2rem;
+    text-decoration: none;
     border-radius: 5%;
-    margin-left: 20px;
+    margin-left: 30px;
+}
+.intro{
+    display: flex;  
+    align-items: center; 
+    margin-left: 30px;
+    font-size: 0.9rem;
+
+}
+.Faq{
+    background-color: transparent;
+    display: flex; 
+    align-items: flex-start; 
+    margin-left: 2%;
+    font-style: italic;
+    font-size: 1.25rem;
+
+}
+.greeting {
+    font-size: 1.9rem;
+    margin-left:80px;
+    font-style: italic;
+    margin-left: 400px; 
+    
+}
+.social{
+    margin-right: 87%;
+    margin-top: 5px;
+}
+.hbr2{
+    background-color: white;
+    height: 1px;
+    width: 100%;
 }
