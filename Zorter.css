@@ -14,6 +14,7 @@
     display: flex; 
     align-items: flex-start; 
     visibility: 15%;
+    position: fixed;
    
 
 }
@@ -37,7 +38,7 @@
     width: 100px;
     background-color:  transparent;
     margin-top: 7px;
-    font-size: 1.2rem;
+    font-size: 1.26rem;
     border-radius: 5%;
     margin-left: 20px; 
 }
@@ -47,7 +48,7 @@
     width: 100px;
     background-color: transparent;
     margin-top: 7px;
-    font-size: 1.2rem;
+    font-size: 1.26rem;
     border-radius: 5%;
    
 }
@@ -142,6 +143,9 @@
 }
 .btn i {
     font-size: 18px;
+}
+.hx:hover{
+    text-decoration: underline;
 }
 
 .footer{
