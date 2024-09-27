@@ -118,6 +118,7 @@
 #menu{
     font-size: 1.2rem;
     margin-top: 7px;
+     margin-right: 24px;  
 }
 #menu:hover{
     font-size: 1.5rem;
