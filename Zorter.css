@@ -1,21 +1,22 @@
+
 *{
-    background-color: rgb(60, 63, 85); 
+     background-color: white;
     color: rgb(211, 211, 236); 
     font-style:san-sarif;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(13, 11, 11);
     
 }
 .header{
     height: 60px;
     width: 100%;
-    background-color:  rgb(61, 61, 82); 
+    background-color: white;
     display: flex; 
     align-items: flex-start; 
-    visibility: 15%;
-    position: fixed;
-   margin-bottom: 800px;
+    margin-bottom: 450px;
+    
+   
 
 }
 .navlogo{
@@ -27,13 +28,19 @@
     border-radius: 5%;
     margin-bottom: 7px;
 }
-
-.hrbr{
+.navlogo.hover{
+    border-color:  black;
+}
+.hgr{
+    height: 0.001rem;
+    width: 100%;
+}
+/* .hrbr{
     background-color: white;
     height: 1px;
     width: 100%;
-}
-.h{
+} */
+#h{
     height: 40px;
     width: 100px;
     background-color:  transparent;
@@ -42,7 +49,7 @@
     border-radius: 5%;
     margin-left: 20px; 
 }
-.h1{
+#h1{
     
     height: 40px;
     width: 100px;
@@ -93,26 +100,32 @@
     margin-bottom: 10px;
     height: 30px;
     padding-top: 10px;
-
+    
 }
 
 .sb::placeholder {
-    color: #888;
+    color: #5b6877;
     font-style: Gowun Batang;
 }
 
 .sb:focus {
-    border-color: #0056b3;
+    border-color: rgb(114, 114, 191);
+    /* background-color: rgb(156, 156, 243);; */
 }
-.menu{
+/* .sb.placeholder:hover{
+  opacity: 0.1;
+} */
+#menu{
     font-size: 1.2rem;
     margin-top: 7px;
 }
-.menu:hover{
+#menu:hover{
     font-size: 1.5rem;
+    color: rgb(156, 156, 243);
+    background-color: rgb(156, 156, 243);;
 }
-.btn {
-    padding: 10px 15px;
+#btn {
+    padding: 12px 15px;
     margin-left: 5px;
     background-color: transparent;
     color: white;
@@ -123,25 +136,29 @@
     margin-right: 60px;
 }
 
-.btn:hover {
-    background-color: #2a3e53;
+#btn:hover {
+    /* color: rgb(156, 156, 243); */
+     /* background-color: #2a3e53;  */
     font-size: 1.2rem;
+    border-color: red;
+   
 }
-.h:hover{
+#h:hover{
+    color: rgb(156, 156, 243); /* Blue border on hover (optional) */
+    font-size: 1.1rem;
+    /* background-color:rgb(31, 32, 41)  */
+    /* color: rgb(156, 156, 243); /*Blue border on hover (optional) */
+    
+    
+}
+#h1:hover{
   
     font-size: 1.1rem;
     /* background-color:rgb(31, 32, 41)  */
-    
-    
-}
-.h1:hover{
-  
-    font-size: 1.1rem;
-    /* background-color:rgb(31, 32, 41)  */
-    
+    color: rgb(156, 156, 243); /* Blue border on hover (optional) */
     
 }
-.btn i {
+#btn i {
     font-size: 18px;
 }
 .hx:hover{
@@ -151,7 +168,7 @@
 .footer{
     height: 60px;
     width: 100%;
-    background-color:  rgb(61, 61, 82); 
+    background-color: white; 
     display: flex;
     align-items: flex-start;
     visibility: 15%;
