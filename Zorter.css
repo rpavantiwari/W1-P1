@@ -1,35 +1,44 @@
 
 *{
      background-color: white;
-    color: rgb(211, 211, 236); 
-    font-style:san-sarif;
+    color: white; 
+    font-style:Gowun Batang;
     align-items: center;
     text-align: center;
-    color: rgb(13, 11, 11);
+    color:black;
     
 }
 .header{
-    height: 60px;
+    height: 45px;
     width: 100%;
     background-color: white;
     display: flex; 
     align-items: flex-start; 
-    margin-bottom: 450px;
+    /* margin-bottom: 450px; **/
+    font-style: Gowum Batang;
     
    
 
 }
 .navlogo{
-    height: 40px;
+    height: 30px;
     width: 100px;
     background-color: transparent;
     margin-top: 7px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 5%;
     margin-bottom: 7px;
+    border-radius: 5px;
+    border: 2px solid #f9fbfc;
+    transition: border-color 0.8s;
+    
+   
+    
 }
-.navlogo.hover{
-    border-color:  black;
+.navlogo:hover{
+    border:  2px solid rgb(114, 114, 191);
+  background-color: rgb(156, 156, 243);
+   
 }
 .hgr{
     height: 0.001rem;
@@ -41,22 +50,32 @@
     width: 100%;
 } */
 #h{
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 50px;
     background-color:  transparent;
     margin-top: 7px;
-    font-size: 1.26rem;
+    font-size: 1.5rem;
     border-radius: 5%;
-    margin-left: 20px; 
+    margin-left: 60px; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition:border-color 0.5s;
+    font-weight: 100;
+    border: 2px solid #f9fbfc;
+    margin-right: 30px;
 }
 #h1{
     
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 350px;
     background-color: transparent;
     margin-top: 7px;
-    font-size: 1.26rem;
-    border-radius: 5%;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid #f9fbfc;
+    transition: border-color 0.5s;
+    background-color: rgb(156, 156, 243);
    
 }
 
@@ -100,6 +119,7 @@
     margin-bottom: 10px;
     height: 30px;
     padding-top: 10px;
+    /* margin-left: 30px; */
     
 }
 
@@ -116,60 +136,80 @@
   opacity: 0.1;
 } */
 #menu{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 7px;
-     margin-right: 24px;  
+    margin-left: 40px;
+    border: 2px solid #f9fbfc;
+   
+   border-radius: 5px;
+   border: 2px solid #f9fbfc;
+   transition: border-color 0.5s;
+  
 }
 #menu:hover{
-    font-size: 1.5rem;
-    color: rgb(156, 156, 243);
-    background-color: rgb(156, 156, 243);;
+    /* font-size: 1.5rem; */
+    /* color: rgb(156, 156, 243); */
+    /* background-color: rgb(156, 156, 243); */
+    /* border: 2px solid rgb(114, 114, 191); */
+    border:rgb(156, 156, 243)
 }
 #btn {
-    padding: 12px 15px;
+    padding: 10px 15px;
     margin-left: 5px;
     background-color: transparent;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    margin-right: 60px;
+    transition: border-color 0.3s;
+    margin-right: 30px;
+    outline: none;
 }
 
 #btn:hover {
     /* color: rgb(156, 156, 243); */
      /* background-color: #2a3e53;  */
-    font-size: 1.2rem;
-    border-color: red;
+    /* font-size: 2.2rem; */
+    border: 2px solid rgb(114, 114, 191);
+    transition: border-color 1s;
    
 }
 #h:hover{
-    color: rgb(156, 156, 243); /* Blue border on hover (optional) */
-    font-size: 1.1rem;
-    /* background-color:rgb(31, 32, 41)  */
+    /* color: rgb(156, 156, 243); Blue border on hover (optional) */
+    /* font-size: 1.1rem; */
+    border: 2px solid rgb(114, 114, 191);
+    transition: border-color 1s;
+    
+
+    /* background:rgb(156, 156,253) ; */
     /* color: rgb(156, 156, 243); /*Blue border on hover (optional) */
     
     
 }
 #h1:hover{
   
-    font-size: 1.1rem;
+    /* font-size: 1rem; */
     /* background-color:rgb(31, 32, 41)  */
-    color: rgb(156, 156, 243); /* Blue border on hover (optional) */
-    
+    /* border:2px solid rgb(156, 156, 243); Blue border on hover (optional) */
+    /* background-color: rgb(138, 138, 174); */
+    /* backface-visibility: 0.5; */
+    background-color: rgb(153, 244, 201);
+    transition: border-color 1s;
+    border-radius: 5px;
+    border: 2px solid rgb(154, 193, 248);
 }
 #btn i {
     font-size: 18px;
 }
 .hx:hover{
     text-decoration: underline;
+    color: rgb(114, 114, 191);
 }
 
 .footer{
     height: 60px;
     width: 100%;
-    background-color: white; 
+    background-color: rgb(255, 252, 252); 
     display: flex;
     align-items: flex-start;
     visibility: 15%;
@@ -186,9 +226,9 @@
     margin-left: 30px;
 }
 .intro{
-    display: flex;  
-    align-items: center; 
-    margin-left: 30px;
+    /* display: flex;   */
+    /* align-items: left;  */
+    margin-left: 42px;
     font-size: 0.9rem;
 
 }
@@ -199,21 +239,33 @@
     margin-left: 2%;
     font-style: italic;
     font-size: 1.25rem;
+    margin-left: 55px;
 
 }
 .greeting {
     font-size: 1.9rem;
-    margin-left:80px;
-    font-style: italic;
+    font-style: Gowun Batang;
     margin-left: 400px; 
+    border: 2px solid #f9fbfc;
+    transition: border-color 0.5s;
+    height: 35px;
+    width: 280px;
+    background-color:rgb(156, 156, 243);
+    border-radius: 10px;
     
 }
 .social{
     margin-right: 87%;
     margin-top: 5px;
+    font-size: 0.8rem;
+    margin-left: 55px;
+    text-decoration: underline;
 }
 .hbr2{
     background-color: white;
     height: 1px;
     width: 100%;
 }
+#hg{
+    margin-bottom: 500px;
+} 
